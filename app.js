@@ -19,7 +19,7 @@ async function getData(searchTerm) {
     try {
     const _key = 'JLWCjAgkiycv4APB05yItNNNlt7CHPId';
     const term = searchTerm;
-    const response = await axios.get('http://api.giphy.com/v1/gifs/search',
+    const response = await axios.get('https://api.giphy.com/v1/gifs/search',
         {params:
             {
                 q: term,
